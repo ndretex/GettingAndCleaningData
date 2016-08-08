@@ -40,7 +40,8 @@ Project Instructions:
 
 The project code is on the script run_analysis.R.
 
-Before running the script run_analysis.R, change the parameter of the function setwd() to you working directory.
+Before running the script run_analysis.R, change the parameter of the function setwd() to your working directory.
+The code has comments with explainations. Read Codebook.md for a resume of the transformations operated on the raw data.
 
 Output:
 
