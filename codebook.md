@@ -114,6 +114,24 @@ Classes ‘data.table’ and 'data.frame':	2310 obs. of  4 variables:
                                     (Other)          :2100  
  ```
  
+```
+ > tidydataset
+ ```
+ ```
+      subject activity                     feature     average
+   1:       1  WALKING           tBodyAcc-mean()-X  0.26569692
+   2:       1  WALKING           tBodyAcc-mean()-Y -0.01829817
+   3:       1  WALKING           tBodyAcc-mean()-Z -0.10784573
+   4:       1  WALKING            tBodyAcc-std()-X -0.54579533
+   5:       1  WALKING            tBodyAcc-std()-Y -0.36771622
+  ---                                                         
+2306:      30 STANDING   fBodyBodyAccJerkMag-std() -0.66460026
+2307:      30 STANDING     fBodyBodyGyroMag-mean() -0.66960051
+2308:      30 STANDING      fBodyBodyGyroMag-std() -0.58919265
+2309:      30 STANDING fBodyBodyGyroJerkMag-mean() -0.81129233
+2310:      30 STANDING  fBodyBodyGyroJerkMag-std() -0.82280562
+```
+
 ## Transformations applied to raw data
  1. merged train and tests sets for subject, activity and measurements
  2. replaced number of activity by name of activity
