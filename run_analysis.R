@@ -15,7 +15,7 @@ if(!file.exists(datadir)) {
   unzip("project_dataset.zip")
 }
 
-# 1 loading and merging train and tests sets for subject, activity and dataset
+# 1 loading and merging train and tests sets for subject, activity and measurements
 library(data.table)
 ## loading subject sets
 subjecttrain <- fread(file.path(datadir, "train", "subject_train.txt"))
@@ -36,7 +36,7 @@ setnames(activitynames,c("V1","V2"),c("numactivity","activity"))
 activity <- merge(activity, activitynames, by="numactivity", all.x=TRUE)
 dataset <- cbind(subject,activity)
 
-# loading data sets
+## loading feature data sets
 datatrain <- fread(file.path(datadir, "train", "x_train.txt"))
 datatest <- fread(file.path(datadir, "test", "x_test.txt"))
 data <- rbind(datatrain,datatest)

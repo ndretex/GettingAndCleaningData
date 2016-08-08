@@ -1,7 +1,5 @@
 # GettingAndCleaningData Course Project
-
 repository for coursera Getting and Cleanig Data course project
-
 created by: Joel Teixeira 08/08/2016
 
 Project Instructions:
@@ -38,11 +36,4 @@ Project Instructions:
 
 > Good luck!
 
-The project code is on the script run_analysis.R.
 
-Before running the script run_analysis.R, change the parameter of the function setwd() to your working directory.
-The code has comments with explainations. Read Codebook.md for a resume of the transformations operated on the raw data.
-
-Output:
-
-Tidy dataset file "tidydataset.txt"
