@@ -1,5 +1,7 @@
 # GettingAndCleaningData Course Project
+
 repository for coursera Getting and Cleanig Data course project
+
 created by: Joel Teixeira 08/08/2016
 
 Project Instructions:
