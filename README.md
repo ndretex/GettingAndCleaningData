@@ -36,4 +36,10 @@ Project Instructions:
 
 > Good luck!
 
+The project code is on the script run_analysis.R.
 
+Before running the script run_analysis.R, change the parameter of the function setwd() to you working directory.
+
+Output:
+
+Tidy dataset file tidydataset.txt
